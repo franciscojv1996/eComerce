@@ -1,0 +1,54 @@
+comando de instalacion:
+
+npm i -g typescript 
+npm init -y 
+
+**intalacion de dependecia**
+npm i express mongoose cors dotenv 
+
+npm i --save-de @types/morgan
+npm i --save-de @types/express 
+
+**intalacion de dependecia en desarrollo** 
+npm i nodemon ts-node -D 
+
+**configuracion de typescript**
+npm install typescript --save-dev
+
+"scripts": {
+   ...
+   "tsc": "tsc"
+},
+
+  "scripts": {
+    "dev": "tsnd --respawn src/index.ts",
+    "debug": "tsnd --debug --respawn src/index.ts",
+    "build": "tsc"
+  },
+
+npm run tsc -- --init 
+npm run build -- --init
+
+**nota modificar la linea 58, "outDuir": "./dist"
+
+devDependencies
+npm i @types/cors @types/express @types/express-fileupload @types/morgan @types/node ts-node-dev typescript
+
+
+dependencies
+npm i --production @typegoose/typegoose cors dotenv express express-fileupload mongoose morgan zod
+////////////////////////////////////////////////////////////////
+
+... o crear un nuevo repositorio en la l�nea de comandos
+echo "# eComerce" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/franciscojv1996/eComerce.git
+git push -u origin main
+
+... o insertar un repositorio existente desde la l�nea de comandos
+git remote add origin https://github.com/franciscojv1996/eComerce.git
+git branch -M main
+git push -u origin main
