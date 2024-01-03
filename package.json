@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "tsnd --respawn src/index.ts",
+    "debug": "tsnd --debug --respawn src/index.ts",
     "tsc": "tsc"
   },
   "repository": {
